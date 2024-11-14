@@ -23,4 +23,4 @@ qtdeMunicipios = len(df['NM_MUNIC'].unique())
 st.write("A quantidade de municípios com localização quilombola é " + str(qtdeMunicipios))
 
 qtdeComunidades = len(df['NM_AGLOM'].unique())
-st.write("A quantidade de comunidades quilombolas é " + str(qtdeComunidades))
+st.write(f"A quantidade de comunidades quilombolas é {str(qtdeComunidades)}")

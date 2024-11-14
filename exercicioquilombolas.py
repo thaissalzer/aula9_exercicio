@@ -16,3 +16,5 @@ estadoFiltro = st.selectbox(
 dadosFiltrados = df[df['NM_UF'] == estadoFiltro]
 if st.checkbox('Mostrar tabela'):
   st.write(dadosFiltrados)
+
+st.map(dadosFiltrados, latitude="Lat_d", longitude="Long_d")
